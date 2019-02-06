@@ -93,9 +93,9 @@ class App extends Component
                   return(
                     <div key={index}>
                       <p>
-                        <b className="mx-3">ID : </b>{post._id}|
-                        <b className="mx-3">Title : </b>{post.title}|
-                        <b>Tags  : </b>{post.tags}
+                        ID : <b className="mx-2">{post._id}</b>|
+                        Title : <b className="mx-2">{post.title}</b>|
+                        Tags  : <b className="mx-2">{post.tags}</b>
                       </p>
                       <b>Comments : </b>
                       <br></br>
