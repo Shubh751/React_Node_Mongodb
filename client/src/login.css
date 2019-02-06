@@ -1,0 +1,59 @@
+/* .Main{
+    background-color:black;
+    height: 100%;
+} */
+
+
+#l_form{
+    width: 40%;
+    text-align:center;
+    border:solid 2px #9B59B6;
+    margin-left: 30%;
+    margin-top: 13%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #EBDEF0  ;
+}
+
+#h4-login{
+    font-family: "Times New Roman", Times, serif;
+}
+
+input[type=text],input[type=password]{
+    text-align: center;
+    border:none;
+    border-bottom: 2px solid greenyellow;
+    background-color: #EBDEF0 ;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type=text]:hover,input[type=password]:hover{
+    border-bottom: 2px solid red;
+    background-color: #EBDEF0  ;
+
+
+}
+
+button{
+    background-color: #FCF3CF ;
+    padding: 4px 11px 4px 11px;
+    border: yellowgreen 1px solid;   
+}
+
+button:hover{
+    border:1px red solid;
+    background-color:white;
+}
+
+
+#signup-button{
+    background:transparent;
+    border:none;
+    color:red;
+}
+
+#signup-button:hover{
+    color:blue;
+}
+

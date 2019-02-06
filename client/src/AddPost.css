@@ -1,0 +1,22 @@
+
+#l_form{
+    width: 40%;
+    text-align:center;
+    border:solid 2px #9B59B6;
+    margin-left: 30%;
+    margin-top: 13%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #EBDEF0  ;
+}
+
+#add{
+    background-color: #FCF3CF ;
+    padding: 4px 11px 4px 11px;
+    border: yellowgreen 1px solid;   
+}
+
+#add:hover{
+    border:1px red solid;
+    background-color:white;
+}

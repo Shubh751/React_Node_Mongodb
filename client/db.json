@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "title": "BESTPEERS",
+      "tags": "HP",
+      "comments": [
+        "this is react js",
+        "this is nodejs",
+        "hello world",
+        "BESTPEERS"
+      ],
+      "id": 1
+    },
+    {
+      "title": "BESTPEERS",
+      "tags": "HP",
+      "comments": [
+        "hello",
+        "Node js is here",
+        "helo",
+        "shubham",
+        "dfvdfv"
+      ],
+      "id": 2
+    },
+    {
+      "title": "BESTPEERS",
+      "tags": "HP",
+      "comments": [
+        "hello",
+        "React is here",
+        "this is node js",
+        "hello there"
+      ],
+      "id": 3
+    },
+    {
+      "title": "bestpeers",
+      "tags": "react",
+      "comments": [
+        "this is react"
+      ],
+      "id": 4
+    },
+    {
+      "title": "BESTPEERS",
+      "tags": "jaiswar",
+      "comments": [
+        "hello",
+        "this is node js",
+        "shubham"
+      ],
+      "id": 5
+    },
+    {
+      "title": "BESTPEERS",
+      "tags": "jaiswar",
+      "comments": [
+        "jaiswar"
+      ],
+      "id": 6
+    },
+    {
+      "title": "BESTPEERS",
+      "tags": "peers",
+      "comments": [
+        "infosystem"
+      ],
+      "id": 7
+    }
+  ]
+}
