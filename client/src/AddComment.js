@@ -63,7 +63,6 @@ class AddComment extends Component
                         name="add_comment" 
                         onChange={this.addCom} 
                     />
-                    {this.state.data}
                     <br></br><br></br>
                     <button class="b1" type="submit">Add</button>&nbsp;
                     <button onClick={this.back}>Home</button>
