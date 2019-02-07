@@ -84,7 +84,7 @@ class App extends Component
       <div className="App">
         <div className="container">
           <div className="row">
-            <div className="col-sm-10">
+            <div className="col-sm-9">
               <h3><b>All posts</b></h3>
               <hr></hr>
               {
@@ -108,7 +108,7 @@ class App extends Component
                 })
               }
             </div>
-            <div className="col-sm-2">
+            <div className="col-sm-3">
               <br></br>
               <h5> Hello <b>{this.state.name}</b> </h5>
               <hr></hr>
@@ -116,7 +116,9 @@ class App extends Component
               <br></br><br></br>
               <button id="logout" onClick={this.logout}>Logout</button>
               <br></br><br></br>  
-            <div><Profile email={this.state.email} name={this.state.name}/></div>  
+              <div>
+                <Profile email={this.state.email} name={this.state.name}/>
+              </div>  
             </div>
           </div>
         </div>
