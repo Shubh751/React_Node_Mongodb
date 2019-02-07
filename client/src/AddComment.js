@@ -50,7 +50,12 @@ class AddComment extends Component
     {
         return(
             <div className="App">
-                <h3 id="h4-login"><b><i>ID : {this.props.id}</i></b></h3><br></br>
+                <h3 id="h4-login">
+                    <b><i>
+                        Add Comment
+                    </i></b>
+                </h3>
+                <br></br>
                 <form onSubmit={this.add}>
                     <input 
                         placeholder="Enter Comment" 

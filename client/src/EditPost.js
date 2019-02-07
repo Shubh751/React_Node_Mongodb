@@ -48,7 +48,12 @@ class EditPost extends Component
     {
         return(
             <div className="App">
-                <h3 id="h4-login"><b><i>ID : {this.props.id}</i></b></h3><br></br>
+                <h3 id="h4-login">
+                    <b><i>
+                        Edit Post
+                    </i></b>
+                </h3>
+                <br></br>
                 <form onSubmit={this.edit}>
                     <input 
                         placeholder="Enter title" 
@@ -56,7 +61,6 @@ class EditPost extends Component
                         name="edit_title" 
                         onChange={this.editTitle} 
                     />
-                    {this.state.data}
                     <br></br><br></br>
                     <button className="b1" type="submit">Add</button>&nbsp;
                     <button onClick={this.back}>Home</button>
